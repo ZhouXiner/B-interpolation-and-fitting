@@ -58,15 +58,18 @@ BaseFuction可以参考我的algorithm.h，我的参考网页找不到了，抱�
 不多说了，对于AX=B的矩阵，你可以采用LU分解等等办法求出X，即这里的P，EIGEN库提供了求解方法，如果想自己实现，可以参见书中的第二部分Solving Systems of Linear Equations  
 
 对于三维曲面  
-=  [1]  
+=   
+[1]  
 ![image](https://github.com/ZhouXiner/B-interpolation-and-fit-/blob/master/PIC/Screenshot%20from%202020-02-17%2013-51-34.png)   
 其中有[2]    
 ![image](https://github.com/ZhouXiner/B-interpolation-and-fit-/blob/master/PIC/Screenshot%20from%202020-02-17%2013-51-47.png)   
 进而原式可以改写成[3]    
 ![image](https://github.com/ZhouXiner/B-interpolation-and-fit-/blob/master/PIC/Screenshot%20from%202020-02-17%2013-51-52.png)  
-即将其拆为两次的二维的求解过程，我们根据[3]先求出Q，再根据[2]求出P  
+即将其拆为两次的二维的求解过程，我们根据[3]先求出Q，再根据[2]求出P，进而我们就求出了控制点P，当P求出后，我们的数据点就失去了他的作用，剩下的就是基于P求出节点向量，进行拟合  
 
-
+基于控制点求出surface  
+=  
+这一部分较为简单，简单描述，网络上教程也很多。简单来说，即基于控制点求出节点向量，再基于节点向量和公式，直接绘制表面。实际绘制过程中，往往是先固定一个方向，如v方向，再在u方向上进行遍历，得到一条条曲线，再固定u方向，在v方向上一条条遍历，就构建出了整个曲面。
 
 
 
