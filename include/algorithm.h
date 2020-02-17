@@ -47,7 +47,7 @@ void new_vector_get(vector<double> &U,int p,int n,const vector<double> &t){
 
 }
 
-//基函数，思路简单，模仿door过程
+//基函数，思路简单，模仿De Boor过程
 double BaseFunction(const int i,const int p,const double u,const vector<double> U_V){
     double u_value = 0;
     if(p == 0){
