@@ -7,9 +7,9 @@ Eigen,Opencv,OpenGL,GLUT
 1.在项目目录下，创建build  
 2.进入build文件夹，进行cmake编译  
 OR  
-  '''
+  ```
 mkdir build  
 cd build  
-cmake ..
+cmake ..  
 make
-  '''
+  ```
