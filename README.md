@@ -29,8 +29,11 @@ make
 事实上，B样条的拟合较为简单，列出几个关键词，自行搜索即可，笔者列举几个自己觉得有用的  
 B样条的完整知识：https://blog.csdn.net/tuqu/article/details/4749586  
 B样条基本知识：https://blog.csdn.net/qq_40597317/article/details/81155571  
+B样条曲面知识：http://www.360doc.com/content/18/1130/21/7378868_798441784.shtml
 BaseFuction可以参考我的algorithm.h，我的参考网页找不到了，抱歉  
-我假设大家已经知道B样条的基本知识，插值部分才是我上传代码的原因，因为网上找不太到相关的靠谱知识，方便大家多做参考  
+我假设大家已经知道B样条的基本知识，即明白这个公式的知识：  
+ ![image](https://github.com/ZhouXiner/B-interpolation-and-fit-/blob/master/PIC/Screenshot%20from%202020-02-17%2013-27-40.png)     
+插值部分才是我上传代码的原因，因为网上找不太到相关的靠谱知识，方便大家多做参考  
 
 插值部分
 ==  
