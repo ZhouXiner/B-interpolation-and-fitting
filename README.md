@@ -4,12 +4,16 @@ Eigen,Opencv,OpenGL,GLUT
     
       
 <big>编译与运行<big>  
-1.在项目目录下，创建build  
-2.进入build文件夹，进行cmake编译  
-OR  
+编译：进入项目目录，执行以下操作：  
+    
   ```
 mkdir build  
 cd build  
 cmake ..  
 make
+  ```  
+  运行：执行以下操作  
+  ```
+  cd ..
+  ./build/B_Spline_surface  
   ```
