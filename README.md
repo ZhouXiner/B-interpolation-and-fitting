@@ -56,7 +56,7 @@ BaseFuction可以参考我的algorithm.h，我的参考网页找不到了，抱�
 对于二维的曲线信息
 =
 ![image](https://github.com/ZhouXiner/B-interpolation-and-fit-/blob/master/PIC/Screenshot%20from%202020-02-17%2013-50-29.png)  
-我们根据上面求出了N的节点向量和参数u(即上面的s,t)，将其矩阵化，得到  
+我们根据上面求出了N的节点向量(即上面的u或v)和参数u(即上面的s,t)，将其矩阵化，得到  
 ![image](https://github.com/ZhouXiner/B-interpolation-and-fit-/blob/master/PIC/Screenshot%20from%202020-02-17%2013-50-38.png)  
 即  
 ![image](https://github.com/ZhouXiner/B-interpolation-and-fit-/blob/master/PIC/Screenshot%20from%202020-02-17%2013-50-57.png)  
