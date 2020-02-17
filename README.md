@@ -34,6 +34,8 @@ BaseFuction可以参考我的algorithm.h，我的参考网页找不到了，抱�
 
 基于表面点求出控制点  
 =  
+![image](https://github.com/ZhouXiner/B-interpolation-and-fit-/blob/master/PIC/Screenshot%20from%202020-02-17%2013-51-34.png)  其实就是处理这个式子(书中 Surface Global Interpolation部分)，基于这个公式，反解出控制点P  
+我们知道的只有数据点D，首先需要得到基函数N和遍历的点s,t
 
 
 
