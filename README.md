@@ -25,8 +25,11 @@ make
 B样条的完整知识：https://blog.csdn.net/tuqu/article/details/4749586  
 B样条基本知识：https://blog.csdn.net/qq_40597317/article/details/81155571  
 BaseFuction可以参考我的algorithm.h，我的参考网页找不到了，抱歉  
-  
-  我假设大家已经知道B样条的基本知识，插值部分才是我上传代码的原因，因为网上找不太到相关的靠谱知识，方便大家多做参考
+我假设大家已经知道B样条的基本知识，插值部分才是我上传代码的原因，因为网上找不太到相关的靠谱知识，方便大家多做参考  
+
+插值部分
+==  
+
 
 
 
