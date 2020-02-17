@@ -43,7 +43,17 @@ BaseFuction可以参考我的algorithm.h，我的参考网页找不到了，抱�
 
 遍历的参数s,t  
 当得到节点向量u，v之后，就可以得到参数s，t，即图片：  
-![image](https://github.com/ZhouXiner/B-interpolation-and-fit-/blob/master/PIC/Screenshot%20from%202020-02-17%2013-47-48.png)    详见书中 第一部分的Parameters and Knot Vectors for Surfaces  
+![image](https://github.com/ZhouXiner/B-interpolation-and-fit-/blob/master/PIC/Screenshot%20from%202020-02-17%2013-47-48.png)    
+详见书中 第一部分的Parameters and Knot Vectors for Surfaces  
+
+得到节点向量和s，t之后，我们如何反解出控制点?先看对于二维的曲线如何反解  
+对于二维的曲线信息  
+![image](https://github.com/ZhouXiner/B-interpolation-and-fit-/blob/master/PIC/Screenshot%20from%202020-02-17%2013-50-29.png)  
+我们根据上面求出了N的节点向量和参数u(即上面的s,t)，将其矩阵化，得到  
+![image](https://github.com/ZhouXiner/B-interpolation-and-fit-/blob/master/PIC/Screenshot%20from%202020-02-17%2013-50-38.png)  
+即  
+![image](https://github.com/ZhouXiner/B-interpolation-and-fit-/blob/master/PIC/Screenshot%20from%202020-02-17%2013-50-57.png)  
+不多说了，对于AX=B的矩阵，你可以采用LU分解等等办法求出X，即这里的P  
 
 
 
