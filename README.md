@@ -1,4 +1,4 @@
-# B-interpolation-and-fit-
+# B-interpolation-and-fit
 必备包
 ==
 Eigen,Opencv,OpenGL,GLUT  
